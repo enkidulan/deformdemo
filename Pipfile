@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+deform = {editable = true, git = "https://github.com/Pylons/deform.git"}
+pyramid = "==1.10.4"
+waitress = "==1.4.3"
+deformdemo = {editable = true, file = "file:///home/enkidulan/projects/deformdemo"}
+flaky = "*"
+colander = {editable = true, git = "https://github.com/Pylons/colander.git"}
+
+[requires]
+python_version = "3.8"
